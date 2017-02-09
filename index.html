@@ -1,13 +1,46 @@
-<!DOCTYPE html> <!-- Typ des Dokuments: Ich bin ein HTML-Dokument-->
+<!DOCTYPE html>
 <html lang="en">
-    <head> <!-- Dokumenteigenschaften und Attribute -> für den User nicht sichtbar!-->
-        <title>Meine erste HTML-Seite</title> <!-- Seitentitel -> wird im Tab angezeigt-->
-        <meta charset="UTF-8"> <!-- zeichenkodierung -->
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Beschreibung der Webseite, werden für Suchmaschinen verwendet -->
-        <!-- Viewport definiert die max. Anzeigeflächedes jeweiligen Geräts als 100% -->
-        <link href="css/style.css" rel="stylesheet">
+    <head>
+        <title>mein Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="normalizeCSS.css">
+        <link href="style.css" rel="stylesheet">
     </head>
-    <body> <!-- Schlusstag -->
-    
+
+
+    <body>
+        <!-- Sektion 1 Start -->
+        <section >            
+        
+            <header>
+                <h2>Mein Portfolio</h2>
+                <nav>Name | Alter | Wohnort | Hobbys</nav>
+            </header>
+
+                <figure>
+                    <img src="images/nicolas.jpg" alt="Profilbild">
+                    <figcaption>Mein Profilbild</figcaption>
+                </figure>
+
+                <section class="desc">
+                    <h4>Name: </h4> <p>Nicolas Vondru</p>
+                    <h4>Alter: </h4> <p>18</p>
+                    <h4>Wohnort: </h4><p>St. Gallen</p>
+                    <h4>Beruf: </h4><p>Informatiker</p>
+                    <h4>Hobbys: </h4><p>Musik, flowersticks</p>
+
+                </section>
+
+
+
+
+            <footer>
+                <p>Portfolio als Übung im ÜK 101</p>
+            </footer>
+            
+
+
+    </section>
     </body>
 </html>

@@ -1,0 +1,19 @@
+/* Mein Stylesheet */
+
+section {
+
+    background: sandybrown
+}
+
+img {
+
+    width: 300px;
+    height: 500px;
+}
+.desc {
+    background: lightgray
+}
+
+html{
+    height: 101%
+}
